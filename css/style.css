@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+}
+body{
+	background-image: url(../images/bg-main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	width: 910px;
+	background-color: #000000e3;
+	border-radius: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+	.container {
+    width: 400px;
+}}
+
+a{
+	color: white;
+	padding: 0px 15px;
+}
+a:hover{
+	color: white;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+	border-radius: 10px;
+}
+.nav-link{
+	padding: 15px 40px;
+}
+.nav-link:active{
+	background-color: #0b36b9 !important;
+}
+.border-radius{
+	border-bottom-left-radius: 5px;
+}
+
+.main-text{
+	color: white;
+	font-size: 20px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #9580ff70;
+    border-radius: 10px;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.experience{
+	padding: 10px 20px;
+	background-color: #117853a6;
+	color: white;
+	font-weight: bold;
+}
+.ins-width{
+	width: 20px !important;
+	position: relative;
+	bottom: 3px;
+}
+
+.other-a{
+	background-color: #213051;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
