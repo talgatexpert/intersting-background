@@ -9,7 +9,7 @@
         particleColor           : 'rgba(255, 40, 40, 1)' ,
         partcleRadius           : 3,
         particleCount           : 150,
-        parcticleMaxVilocity    : 0.5,
+        parcticleMaxVilocity    : 0.1,
         lineLenght              : 460,
         particleLife            : 6
     };
